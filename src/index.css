@@ -1,13 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  background: rgb(75, 75, 75);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width: 100vw;
+  margin: 20px auto;
+  overflow: auto;
+  min-height: 100vh;
+  border: 1px solid rgba(131, 39, 39, 0.666);
+  padding: 2px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.87);
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.752)
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.btn {
+  display: inline-block;
+  background: #ea40409c;
+  color: #fff;
+  border: none;
+  padding: 4px 3px;
+  margin: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+
